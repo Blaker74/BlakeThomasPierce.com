@@ -1,0 +1,9 @@
+.song-page {
+  max-width: 56rem;
+  margin: auto;
+  padding: clamp(24px, 5vw, 64px) 20px;
+}
+.song-page h1 { font: 600 clamp(2.3rem, 7vw, 4.5rem)/1.08 Georgia, serif; }
+.song-page p { max-width: 68ch; margin: 1rem 0 1.5rem; line-height: 1.7; }
+.song-page iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; background: #151512; }
+.song-page a { text-decoration: underline; text-underline-offset: .18em; }
